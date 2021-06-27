@@ -1,0 +1,45 @@
+{
+    "type": "Subtraction",
+    "children": [
+        {
+            "type": "Union",
+            "children": [
+                {
+                    "type": "Sphere",
+                    "center": [-1, 1, 0],
+                    "radius": 1
+                },
+                {
+                    "type": "Sphere",
+                    "center": [1,1,0],
+                    "radius": 1
+                },
+                {
+                    "type": "Sphere",
+                    "center": [-1,-1,0],
+                    "radius": 1
+                },
+                {
+                    "type": "Sphere",
+                    "center": [1,-1,0],
+                    "radius": 1
+                },
+                {
+                    "type": "Box",
+                    "axis": [4,2,-1],
+                    "center": [0,0,0]
+                },
+                {
+                    "type": "Box",
+                    "axis": [2,4,-1],
+                    "center": [0,0,0]
+                }
+            ]
+        },
+        {
+            "type": "Sphere",
+            "center": [0.75,0.5,0],
+            "radius": 0.75
+        }
+    ]
+}
